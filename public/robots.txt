@@ -1,0 +1,17 @@
+# robots.txt for GlowSkin E-commerce Store
+
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /products/*
+
+Disallow: /admin
+Disallow: /account
+Disallow: /checkout
+Disallow: /cart
+Disallow: /order-confirmation
+
+Sitemap: https://www.dotandkey.com/sitemap.xml
+
+# Crawl-delay (optional, in seconds)
+Crawl-delay: 10
