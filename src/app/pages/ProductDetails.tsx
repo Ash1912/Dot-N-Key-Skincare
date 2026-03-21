@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router';
+import { useParams, Link } from 'react-router-dom';
 import { products, reviews as allReviews, Product } from '../data/mockData';
 import { useApp } from '../context/AppContext';
 import { Button } from '../components/ui/button';
@@ -22,7 +22,7 @@ import {
 import { toast } from 'sonner';
 import { trackViewContent, trackAddToCart, trackAddToWishlist } from '../utils/analytics';
 import { SEO, generateProductSchema, injectStructuredData } from '../utils/seo';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 export const ProductDetails = () => {
   const { slug } = useParams<{ slug: string }>();

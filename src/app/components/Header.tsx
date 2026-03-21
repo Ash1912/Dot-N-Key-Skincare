@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import { ShoppingCart, Heart, User, Search, Menu, X } from "lucide-react";
 import { useApp } from "../context/AppContext";
 import { Button } from "./ui/button";

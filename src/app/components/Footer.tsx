@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import { Facebook, Instagram, Youtube, Mail } from "lucide-react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";

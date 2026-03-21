@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router';
+import { useParams, Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';

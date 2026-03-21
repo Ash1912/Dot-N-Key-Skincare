@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { Heart, ShoppingCart, Star } from 'lucide-react';
 import { Product } from '../data/mockData';
 import { Button } from './ui/button';
@@ -6,7 +6,7 @@ import { Badge } from './ui/badge';
 import { useApp } from '../context/AppContext';
 import { toast } from 'sonner';
 import { trackAddToCart, trackAddToWishlist } from '../utils/analytics';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 interface ProductCardProps {
   product: Product;

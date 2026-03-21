@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { ArrowRight, Star, Truck, Shield, HeadphonesIcon } from "lucide-react";
 import { ProductCard } from "../components/ProductCard";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import { products, categories, banners, testimonials } from "../data/mockData";
 import { SEO } from "../utils/seo";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 export const Home = () => {
   const [currentBanner, setCurrentBanner] = useState(0);
