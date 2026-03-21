@@ -1,11 +1,13 @@
 {
-  "name": "@figma/my-make-file",
+  "name": "dot-and-key",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "preview": "vite preview",
+    "netlify-build": "npm run build"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
